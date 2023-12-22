@@ -1,0 +1,3 @@
+echo "pavucontrol
+rofi-bluetooth
+networkmanager_dmenu" | rofi -dmenu | bash

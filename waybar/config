@@ -1,0 +1,106 @@
+{
+    "layer": "top", // Waybar at top layer
+    "position" : "top",
+    // Choose the order of the modules
+    "margin-top": 20,
+    "margin-left": 20,
+    "margin-right": 20,
+    "margin-bottom": 0,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window","clock","custom/media"],
+    "modules-right": ["pulseaudio", "bluetooth", "network", "backlight", "battery"],
+    // Modules configuration
+
+    "hyprland/workspaces": {
+    	"format": "",
+    },
+    "hyprland/window": {
+         "max-length": 30,
+},
+"bluetooth":{
+"format": "󰂯",
+"format-off": "󰂲",
+"format-connected": "󰂱",
+"tooltip-format-connected": "{device_alias}",
+"on-click":"rofi-bluetooth"
+},
+ "custom/media": {
+         "format": "{icon} {}",
+         "escape": true,
+         "return-type": "json",
+         "max-length": 30,
+         "on-click": "playerctl play-pause",
+         "on-click-right": "playerctld shift",
+         "smooth-scrolling-threshold": 1,
+         "on-scroll-up": "playerctl next",
+         "on-scroll-down": "playerctl previous",
+         "format-icons": {
+           "spotify": " ",
+           "firefox": " ",
+           "chromium": " ",
+           "kdeconnect": " ",
+           "default": "󰫔 "
+         },
+         "exec": "media.py",
+         "exec-on-event": false
+     },
+    "clock": {
+        // "timezone": "America/New_York",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{icon}",
+        "tooltip-format": "{percent}% {icon}",
+        "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "],
+	"on-scroll-up": "brillo -q -A 1",
+	"on-scroll-down": "brillo -q -U 1",
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon} ",
+        "format-charging": "{capacity}%  ",
+        "format-plugged": "{capacity}%  ",
+        "format-alt": "{time} {icon}",
+        // "format-good": "", // An empty format will hide the module
+        // "format-full": "",
+        "format-icons": [" ", " ", " ", " ", " "]
+    },
+    "network": {
+        // "interface": "wlp2*", // (Optional) To force the use of this interface
+        "format-wifi": "{icon}",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{essid} ({signalStrength}%)",
+        // "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "⚠ ",
+	"format-icons": ["󰣾 ", "󰣴 ", "󰣶 ", "󰣸 ", "󰣺 "],
+	"on-click": "networkmanager_dmenu"
+    },
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon} {format_source}",
+        "format-bluetooth": "{icon} ",
+        "format-bluetooth-muted": " {icon}",
+        "format-muted": " {format_source}",
+        "format-source": "",
+        "format-source-muted": " ",
+	"tooltip-format": "{volume}%",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+}
+

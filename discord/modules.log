@@ -1,0 +1,672 @@
+2023-12-15T17:55:02.685Z [Modules] Modules initializing
+2023-12-15T17:55:02.685Z [Modules] Distribution: remote
+2023-12-15T17:55:02.686Z [Modules] Host updates: enabled
+2023-12-15T17:55:02.686Z [Modules] Module updates: enabled
+2023-12-15T17:55:02.686Z [Modules] Module install path: /home/tomri/.config/discord/0.0.38/modules
+2023-12-15T17:55:02.686Z [Modules] Module installed file path: /home/tomri/.config/discord/0.0.38/modules/installed.json
+2023-12-15T17:55:02.686Z [Modules] Module download path: /home/tomri/.config/discord/0.0.38/modules/pending
+2023-12-15T17:55:02.831Z [Modules] Bootstrapping...
+2023-12-15T17:55:02.832Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2023-12-15T17:55:02.835Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2023-12-15T17:55:02.836Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2023-12-15T17:55:02.838Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2023-12-15T17:55:02.838Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2023-12-15T17:55:02.840Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2023-12-15T17:55:02.841Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2023-12-15T17:55:02.842Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2023-12-15T17:55:02.842Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2023-12-15T17:55:02.843Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2023-12-15T17:55:02.843Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-12-15T17:55:02.844Z [Modules] Checking for host updates.
+2023-12-15T17:55:03.442Z [Modules] Host is up to date.
+2023-12-15T17:55:03.443Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T17:55:04.139Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-12-15T17:55:04.139Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-12-15T17:55:04.139Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-12-15T17:55:04.139Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-12-15T17:55:04.140Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-12-15T17:55:04.141Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-12-15T17:55:04.141Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip
+2023-12-15T17:55:05.377Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 1%
+2023-12-15T17:55:05.502Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 2%
+2023-12-15T17:55:05.522Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 3%
+2023-12-15T17:55:05.531Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 4%
+2023-12-15T17:55:05.578Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 5%
+2023-12-15T17:55:05.598Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 6%
+2023-12-15T17:55:05.613Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 7%
+2023-12-15T17:55:05.620Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 8%
+2023-12-15T17:55:05.624Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 9%
+2023-12-15T17:55:05.651Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 10%
+2023-12-15T17:55:05.658Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 11%
+2023-12-15T17:55:05.718Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 13%
+2023-12-15T17:55:05.729Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 14%
+2023-12-15T17:55:05.741Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 16%
+2023-12-15T17:55:05.752Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 17%
+2023-12-15T17:55:05.759Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 18%
+2023-12-15T17:55:05.762Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 19%
+2023-12-15T17:55:05.776Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 20%
+2023-12-15T17:55:05.813Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 21%
+2023-12-15T17:55:05.818Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 22%
+2023-12-15T17:55:05.829Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 23%
+2023-12-15T17:55:05.834Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 24%
+2023-12-15T17:55:05.841Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 25%
+2023-12-15T17:55:05.860Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 26%
+2023-12-15T17:55:05.881Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 27%
+2023-12-15T17:55:05.890Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 28%
+2023-12-15T17:55:05.896Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 29%
+2023-12-15T17:55:05.905Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 30%
+2023-12-15T17:55:05.916Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 31%
+2023-12-15T17:55:05.948Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 32%
+2023-12-15T17:55:05.954Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 33%
+2023-12-15T17:55:05.957Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 34%
+2023-12-15T17:55:05.971Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 35%
+2023-12-15T17:55:05.982Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 36%
+2023-12-15T17:55:06.024Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 38%
+2023-12-15T17:55:06.026Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 39%
+2023-12-15T17:55:06.046Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 40%
+2023-12-15T17:55:06.053Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 41%
+2023-12-15T17:55:06.058Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 42%
+2023-12-15T17:55:06.097Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 43%
+2023-12-15T17:55:06.102Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 44%
+2023-12-15T17:55:06.106Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 45%
+2023-12-15T17:55:06.126Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 46%
+2023-12-15T17:55:06.130Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 47%
+2023-12-15T17:55:06.133Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 48%
+2023-12-15T17:55:06.172Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 49%
+2023-12-15T17:55:06.174Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 50%
+2023-12-15T17:55:06.195Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 51%
+2023-12-15T17:55:06.208Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 52%
+2023-12-15T17:55:06.214Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 53%
+2023-12-15T17:55:06.233Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 54%
+2023-12-15T17:55:06.251Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 55%
+2023-12-15T17:55:06.258Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 56%
+2023-12-15T17:55:06.264Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 57%
+2023-12-15T17:55:06.312Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 59%
+2023-12-15T17:55:06.314Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 60%
+2023-12-15T17:55:06.340Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 62%
+2023-12-15T17:55:06.355Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 63%
+2023-12-15T17:55:06.371Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 64%
+2023-12-15T17:55:06.374Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 65%
+2023-12-15T17:55:06.396Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 66%
+2023-12-15T17:55:06.403Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 67%
+2023-12-15T17:55:06.410Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 68%
+2023-12-15T17:55:06.420Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 69%
+2023-12-15T17:55:06.434Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 70%
+2023-12-15T17:55:06.448Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 71%
+2023-12-15T17:55:06.467Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 73%
+2023-12-15T17:55:06.478Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 74%
+2023-12-15T17:55:06.498Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 75%
+2023-12-15T17:55:06.501Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 76%
+2023-12-15T17:55:06.518Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 77%
+2023-12-15T17:55:06.541Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 78%
+2023-12-15T17:55:06.561Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 79%
+2023-12-15T17:55:06.563Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 80%
+2023-12-15T17:55:06.583Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 81%
+2023-12-15T17:55:06.586Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 82%
+2023-12-15T17:55:06.606Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 83%
+2023-12-15T17:55:06.637Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 84%
+2023-12-15T17:55:06.647Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 85%
+2023-12-15T17:55:06.686Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 86%
+2023-12-15T17:55:06.703Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 88%
+2023-12-15T17:55:06.725Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 89%
+2023-12-15T17:55:06.888Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 92%
+2023-12-15T17:55:06.890Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 95%
+2023-12-15T17:55:06.892Z [Modules] Streaming discord_desktop_core@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip: 100%
+2023-12-15T17:55:06.898Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-12-15T17:55:06.898Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip
+2023-12-15T17:55:07.938Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 1%
+2023-12-15T17:55:07.949Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 2%
+2023-12-15T17:55:07.966Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 5%
+2023-12-15T17:55:07.979Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 8%
+2023-12-15T17:55:07.990Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 9%
+2023-12-15T17:55:08.001Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 11%
+2023-12-15T17:55:08.007Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 13%
+2023-12-15T17:55:08.014Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 14%
+2023-12-15T17:55:08.034Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 15%
+2023-12-15T17:55:08.297Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 18%
+2023-12-15T17:55:08.300Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 35%
+2023-12-15T17:55:08.325Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 36%
+2023-12-15T17:55:08.337Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 37%
+2023-12-15T17:55:08.345Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 38%
+2023-12-15T17:55:08.354Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 39%
+2023-12-15T17:55:08.362Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 40%
+2023-12-15T17:55:08.368Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 41%
+2023-12-15T17:55:08.386Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 42%
+2023-12-15T17:55:08.397Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 43%
+2023-12-15T17:55:08.404Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 44%
+2023-12-15T17:55:08.421Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 46%
+2023-12-15T17:55:08.437Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 47%
+2023-12-15T17:55:08.456Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 48%
+2023-12-15T17:55:08.463Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 49%
+2023-12-15T17:55:08.478Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 50%
+2023-12-15T17:55:08.485Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 51%
+2023-12-15T17:55:08.494Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 52%
+2023-12-15T17:55:08.497Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 53%
+2023-12-15T17:55:08.515Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 54%
+2023-12-15T17:55:08.519Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 55%
+2023-12-15T17:55:08.530Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 56%
+2023-12-15T17:55:08.544Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 57%
+2023-12-15T17:55:08.555Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 59%
+2023-12-15T17:55:08.562Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 61%
+2023-12-15T17:55:08.571Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 62%
+2023-12-15T17:55:08.581Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 64%
+2023-12-15T17:55:08.587Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 65%
+2023-12-15T17:55:08.602Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 67%
+2023-12-15T17:55:08.606Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 68%
+2023-12-15T17:55:08.613Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 70%
+2023-12-15T17:55:08.623Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 71%
+2023-12-15T17:55:08.638Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 72%
+2023-12-15T17:55:08.646Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 73%
+2023-12-15T17:55:08.652Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 74%
+2023-12-15T17:55:08.657Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 76%
+2023-12-15T17:55:08.661Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 77%
+2023-12-15T17:55:08.674Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 78%
+2023-12-15T17:55:08.679Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 79%
+2023-12-15T17:55:08.684Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 80%
+2023-12-15T17:55:08.696Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 82%
+2023-12-15T17:55:08.705Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 83%
+2023-12-15T17:55:08.719Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 84%
+2023-12-15T17:55:08.729Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 85%
+2023-12-15T17:55:08.732Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 86%
+2023-12-15T17:55:08.736Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 87%
+2023-12-15T17:55:08.745Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 88%
+2023-12-15T17:55:08.777Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 90%
+2023-12-15T17:55:08.794Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 94%
+2023-12-15T17:55:08.805Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 95%
+2023-12-15T17:55:08.810Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 96%
+2023-12-15T17:55:08.817Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 97%
+2023-12-15T17:55:08.822Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 98%
+2023-12-15T17:55:08.829Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 99%
+2023-12-15T17:55:08.831Z [Modules] Streaming discord_erlpack@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip: 100%
+2023-12-15T17:55:08.834Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-12-15T17:55:08.835Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip
+2023-12-15T17:55:10.030Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 1%
+2023-12-15T17:55:10.073Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 2%
+2023-12-15T17:55:10.119Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 3%
+2023-12-15T17:55:10.163Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 4%
+2023-12-15T17:55:10.211Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 5%
+2023-12-15T17:55:10.239Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 6%
+2023-12-15T17:55:10.284Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 7%
+2023-12-15T17:55:10.323Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 8%
+2023-12-15T17:55:10.399Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 9%
+2023-12-15T17:55:10.452Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 10%
+2023-12-15T17:55:10.543Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 11%
+2023-12-15T17:55:10.605Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 12%
+2023-12-15T17:55:10.667Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 13%
+2023-12-15T17:55:10.725Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 14%
+2023-12-15T17:55:10.783Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 15%
+2023-12-15T17:55:10.847Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 16%
+2023-12-15T17:55:10.922Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 17%
+2023-12-15T17:55:10.961Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 18%
+2023-12-15T17:55:11.017Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 19%
+2023-12-15T17:55:11.057Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 20%
+2023-12-15T17:55:11.114Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 21%
+2023-12-15T17:55:11.174Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 22%
+2023-12-15T17:55:11.237Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 23%
+2023-12-15T17:55:11.279Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 24%
+2023-12-15T17:55:11.330Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 25%
+2023-12-15T17:55:11.381Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 26%
+2023-12-15T17:55:11.437Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 27%
+2023-12-15T17:55:11.501Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 28%
+2023-12-15T17:55:11.548Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 29%
+2023-12-15T17:55:11.617Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 30%
+2023-12-15T17:55:11.658Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 31%
+2023-12-15T17:55:11.733Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 32%
+2023-12-15T17:55:11.816Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 33%
+2023-12-15T17:55:11.922Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 34%
+2023-12-15T17:55:11.971Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 35%
+2023-12-15T17:55:12.026Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 36%
+2023-12-15T17:55:12.085Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 37%
+2023-12-15T17:55:12.158Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 38%
+2023-12-15T17:55:12.219Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 39%
+2023-12-15T17:55:12.298Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 40%
+2023-12-15T17:55:12.357Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 41%
+2023-12-15T17:55:12.416Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 42%
+2023-12-15T17:55:12.474Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 43%
+2023-12-15T17:55:12.522Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 44%
+2023-12-15T17:55:12.579Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 45%
+2023-12-15T17:55:12.617Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 46%
+2023-12-15T17:55:12.694Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 47%
+2023-12-15T17:55:12.716Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 48%
+2023-12-15T17:55:12.743Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 49%
+2023-12-15T17:55:12.802Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 50%
+2023-12-15T17:55:12.853Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 51%
+2023-12-15T17:55:12.895Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 52%
+2023-12-15T17:55:12.946Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 53%
+2023-12-15T17:55:12.995Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 54%
+2023-12-15T17:55:13.041Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 55%
+2023-12-15T17:55:13.096Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 56%
+2023-12-15T17:55:13.143Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 57%
+2023-12-15T17:55:13.176Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 58%
+2023-12-15T17:55:13.241Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 59%
+2023-12-15T17:55:13.290Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 60%
+2023-12-15T17:55:13.324Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 61%
+2023-12-15T17:55:13.379Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 62%
+2023-12-15T17:55:13.421Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 63%
+2023-12-15T17:55:13.461Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 64%
+2023-12-15T17:55:13.505Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 65%
+2023-12-15T17:55:13.545Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 66%
+2023-12-15T17:55:13.596Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 67%
+2023-12-15T17:55:13.634Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 68%
+2023-12-15T17:55:13.684Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 69%
+2023-12-15T17:55:13.727Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 70%
+2023-12-15T17:55:13.773Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 71%
+2023-12-15T17:55:13.819Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 72%
+2023-12-15T17:55:13.858Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 73%
+2023-12-15T17:55:13.889Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 74%
+2023-12-15T17:55:13.924Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 75%
+2023-12-15T17:55:13.964Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 76%
+2023-12-15T17:55:14.009Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 77%
+2023-12-15T17:55:14.050Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 78%
+2023-12-15T17:55:14.083Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 79%
+2023-12-15T17:55:14.126Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 80%
+2023-12-15T17:55:14.181Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 81%
+2023-12-15T17:55:14.224Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 82%
+2023-12-15T17:55:14.283Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 83%
+2023-12-15T17:55:14.336Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 84%
+2023-12-15T17:55:14.401Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 85%
+2023-12-15T17:55:14.450Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 86%
+2023-12-15T17:55:14.505Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 87%
+2023-12-15T17:55:14.566Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 88%
+2023-12-15T17:55:14.616Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 89%
+2023-12-15T17:55:14.655Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 90%
+2023-12-15T17:55:14.726Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 91%
+2023-12-15T17:55:14.802Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 92%
+2023-12-15T17:55:14.850Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 93%
+2023-12-15T17:55:14.917Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 94%
+2023-12-15T17:55:14.971Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 95%
+2023-12-15T17:55:15.041Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 96%
+2023-12-15T17:55:15.097Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 97%
+2023-12-15T17:55:15.136Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 98%
+2023-12-15T17:55:15.184Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 99%
+2023-12-15T17:55:15.222Z [Modules] Streaming discord_spellcheck@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip: 100%
+2023-12-15T17:55:15.226Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-12-15T17:55:15.226Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip
+2023-12-15T17:55:16.800Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 2%
+2023-12-15T17:55:16.802Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 11%
+2023-12-15T17:55:16.803Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 14%
+2023-12-15T17:55:16.816Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 15%
+2023-12-15T17:55:16.843Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 16%
+2023-12-15T17:55:16.868Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 17%
+2023-12-15T17:55:16.879Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 18%
+2023-12-15T17:55:16.901Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 19%
+2023-12-15T17:55:16.924Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 20%
+2023-12-15T17:55:16.933Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 21%
+2023-12-15T17:55:16.952Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 22%
+2023-12-15T17:55:16.963Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 23%
+2023-12-15T17:55:16.979Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 24%
+2023-12-15T17:55:17.001Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 26%
+2023-12-15T17:55:17.023Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 27%
+2023-12-15T17:55:17.034Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 28%
+2023-12-15T17:55:17.043Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 29%
+2023-12-15T17:55:17.072Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 30%
+2023-12-15T17:55:17.082Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 31%
+2023-12-15T17:55:17.092Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 32%
+2023-12-15T17:55:17.103Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 33%
+2023-12-15T17:55:17.112Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 34%
+2023-12-15T17:55:17.126Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 35%
+2023-12-15T17:55:17.145Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 36%
+2023-12-15T17:55:17.169Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 37%
+2023-12-15T17:55:17.675Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 39%
+2023-12-15T17:55:17.677Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 46%
+2023-12-15T17:55:17.680Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 57%
+2023-12-15T17:55:17.682Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 59%
+2023-12-15T17:55:18.124Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 61%
+2023-12-15T17:55:18.126Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 67%
+2023-12-15T17:55:18.129Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 75%
+2023-12-15T17:55:18.130Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 77%
+2023-12-15T17:55:18.479Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 79%
+2023-12-15T17:55:18.487Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 82%
+2023-12-15T17:55:18.489Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 95%
+2023-12-15T17:55:18.491Z [Modules] Streaming discord_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip: 100%
+2023-12-15T17:55:18.494Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-12-15T17:55:18.494Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip
+2023-12-15T17:55:20.254Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 1%
+2023-12-15T17:55:20.256Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 2%
+2023-12-15T17:55:20.663Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 3%
+2023-12-15T17:55:20.667Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 4%
+2023-12-15T17:55:21.044Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 5%
+2023-12-15T17:55:21.046Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 6%
+2023-12-15T17:55:21.397Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 7%
+2023-12-15T17:55:21.399Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 8%
+2023-12-15T17:55:21.411Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 9%
+2023-12-15T17:55:21.770Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 10%
+2023-12-15T17:55:21.777Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 11%
+2023-12-15T17:55:22.166Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 12%
+2023-12-15T17:55:22.168Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 13%
+2023-12-15T17:55:22.494Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 14%
+2023-12-15T17:55:22.497Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 15%
+2023-12-15T17:55:22.598Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 16%
+2023-12-15T17:55:22.727Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 17%
+2023-12-15T17:55:22.851Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 18%
+2023-12-15T17:55:22.992Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 19%
+2023-12-15T17:55:23.098Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 20%
+2023-12-15T17:55:23.222Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 21%
+2023-12-15T17:55:23.363Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 22%
+2023-12-15T17:55:23.481Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 23%
+2023-12-15T17:55:23.603Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 24%
+2023-12-15T17:55:23.762Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 25%
+2023-12-15T17:55:23.894Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 26%
+2023-12-15T17:55:24.057Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 27%
+2023-12-15T17:55:24.458Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 28%
+2023-12-15T17:55:24.460Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 29%
+2023-12-15T17:55:24.862Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 30%
+2023-12-15T17:55:24.864Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 31%
+2023-12-15T17:55:24.901Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 32%
+2023-12-15T17:55:25.132Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 33%
+2023-12-15T17:55:25.134Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 34%
+2023-12-15T17:55:25.281Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 35%
+2023-12-15T17:55:25.436Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 36%
+2023-12-15T17:55:25.893Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 37%
+2023-12-15T17:55:25.896Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 38%
+2023-12-15T17:55:26.297Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 39%
+2023-12-15T17:55:26.299Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 40%
+2023-12-15T17:55:26.634Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 41%
+2023-12-15T17:55:26.636Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 42%
+2023-12-15T17:55:26.691Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 43%
+2023-12-15T17:55:26.936Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 44%
+2023-12-15T17:55:26.938Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 45%
+2023-12-15T17:55:27.057Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 46%
+2023-12-15T17:55:27.166Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 47%
+2023-12-15T17:55:27.289Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 48%
+2023-12-15T17:55:27.395Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 49%
+2023-12-15T17:55:27.530Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 50%
+2023-12-15T17:55:27.689Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 51%
+2023-12-15T17:55:27.896Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 52%
+2023-12-15T17:55:28.324Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 53%
+2023-12-15T17:55:28.326Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 54%
+2023-12-15T17:55:28.646Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 55%
+2023-12-15T17:55:28.650Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 56%
+2023-12-15T17:55:28.744Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 57%
+2023-12-15T17:55:29.167Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 58%
+2023-12-15T17:55:29.332Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 59%
+2023-12-15T17:55:29.476Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 60%
+2023-12-15T17:55:29.578Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 61%
+2023-12-15T17:55:29.697Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 62%
+2023-12-15T17:55:29.814Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 63%
+2023-12-15T17:55:29.943Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 64%
+2023-12-15T17:55:30.079Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 65%
+2023-12-15T17:55:30.178Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 66%
+2023-12-15T17:55:30.337Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 67%
+2023-12-15T17:55:30.460Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 68%
+2023-12-15T17:55:30.576Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 69%
+2023-12-15T17:55:30.876Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 70%
+2023-12-15T17:55:30.998Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 71%
+2023-12-15T17:55:31.119Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 72%
+2023-12-15T17:55:31.256Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 73%
+2023-12-15T17:55:31.382Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 74%
+2023-12-15T17:55:31.486Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 75%
+2023-12-15T17:55:31.587Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 76%
+2023-12-15T17:55:31.713Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 77%
+2023-12-15T17:55:31.882Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 78%
+2023-12-15T17:55:32.013Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 79%
+2023-12-15T17:55:32.504Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 80%
+2023-12-15T17:55:32.506Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 81%
+2023-12-15T17:55:32.508Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 82%
+2023-12-15T17:55:32.814Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 83%
+2023-12-15T17:55:32.816Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 84%
+2023-12-15T17:55:32.820Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 85%
+2023-12-15T17:55:32.944Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 86%
+2023-12-15T17:55:33.076Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 87%
+2023-12-15T17:55:33.237Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 88%
+2023-12-15T17:55:33.530Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 89%
+2023-12-15T17:55:33.534Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 90%
+2023-12-15T17:55:33.651Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 91%
+2023-12-15T17:55:33.767Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 92%
+2023-12-15T17:55:33.879Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 93%
+2023-12-15T17:55:33.981Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 94%
+2023-12-15T17:55:34.101Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 95%
+2023-12-15T17:55:34.218Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 96%
+2023-12-15T17:55:34.331Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 97%
+2023-12-15T17:55:34.422Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 98%
+2023-12-15T17:55:34.536Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 99%
+2023-12-15T17:55:34.609Z [Modules] Streaming discord_voice@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip: 100%
+2023-12-15T17:55:34.612Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-12-15T17:55:34.613Z [Modules] Installing updates...
+2023-12-15T17:55:34.613Z [Modules] Installing discord_desktop_core@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_desktop_core-1.zip
+2023-12-15T17:55:34.694Z [Modules] Installing discord_erlpack@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_erlpack-1.zip
+2023-12-15T17:55:34.740Z [Modules] Installing discord_spellcheck@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_spellcheck-1.zip
+2023-12-15T17:55:35.412Z [Modules] Installing discord_utils@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_utils-1.zip
+2023-12-15T17:55:35.510Z [Modules] Installing discord_voice@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_voice-1.zip
+2023-12-15T17:55:36.131Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-12-15T17:55:36.131Z [Modules] Checking for host updates.
+2023-12-15T17:55:37.010Z [Modules] Host is up to date.
+2023-12-15T17:55:37.011Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T17:55:37.016Z [Modules] No module updates available.
+2023-12-15T17:55:41.300Z [Modules] Starting to install discord_krisp...
+2023-12-15T17:55:41.301Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-12-15T17:55:41.301Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip
+2023-12-15T17:55:41.309Z [Modules] Starting to install discord_game_utils...
+2023-12-15T17:55:42.395Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 1%
+2023-12-15T17:55:42.497Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 2%
+2023-12-15T17:55:42.610Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 3%
+2023-12-15T17:55:42.727Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 4%
+2023-12-15T17:55:42.928Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 5%
+2023-12-15T17:55:43.055Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 6%
+2023-12-15T17:55:43.175Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 7%
+2023-12-15T17:55:43.274Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 8%
+2023-12-15T17:55:43.380Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 9%
+2023-12-15T17:55:43.532Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 10%
+2023-12-15T17:55:43.836Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 11%
+2023-12-15T17:55:43.934Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 12%
+2023-12-15T17:55:44.079Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 13%
+2023-12-15T17:55:44.208Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 14%
+2023-12-15T17:55:44.319Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 15%
+2023-12-15T17:55:44.438Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 16%
+2023-12-15T17:55:44.566Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 17%
+2023-12-15T17:55:44.678Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 18%
+2023-12-15T17:55:44.776Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 19%
+2023-12-15T17:55:44.894Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 20%
+2023-12-15T17:55:45.010Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 21%
+2023-12-15T17:55:45.122Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 22%
+2023-12-15T17:55:45.296Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 23%
+2023-12-15T17:55:45.446Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 24%
+2023-12-15T17:55:45.584Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 25%
+2023-12-15T17:55:45.692Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 26%
+2023-12-15T17:55:45.803Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 27%
+2023-12-15T17:55:47.799Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 28%
+2023-12-15T17:55:47.914Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 29%
+2023-12-15T17:55:48.008Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 30%
+2023-12-15T17:55:48.128Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 31%
+2023-12-15T17:55:48.236Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 32%
+2023-12-15T17:55:48.337Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 33%
+2023-12-15T17:55:48.446Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 34%
+2023-12-15T17:55:48.544Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 35%
+2023-12-15T17:55:48.625Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 36%
+2023-12-15T17:55:48.702Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 37%
+2023-12-15T17:55:48.798Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 38%
+2023-12-15T17:55:48.886Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 39%
+2023-12-15T17:55:48.970Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 40%
+2023-12-15T17:55:49.054Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 41%
+2023-12-15T17:55:49.171Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 42%
+2023-12-15T17:55:49.289Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 43%
+2023-12-15T17:55:49.388Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 44%
+2023-12-15T17:55:49.453Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 45%
+2023-12-15T17:55:49.534Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 46%
+2023-12-15T17:55:49.611Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 47%
+2023-12-15T17:55:49.678Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 48%
+2023-12-15T17:55:49.737Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 49%
+2023-12-15T17:55:49.840Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 50%
+2023-12-15T17:55:49.917Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 51%
+2023-12-15T17:55:49.983Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 52%
+2023-12-15T17:55:50.067Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 53%
+2023-12-15T17:55:50.176Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 54%
+2023-12-15T17:55:50.249Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 55%
+2023-12-15T17:55:50.304Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 56%
+2023-12-15T17:55:50.452Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 57%
+2023-12-15T17:55:50.519Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 58%
+2023-12-15T17:55:50.629Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 59%
+2023-12-15T17:55:50.688Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 60%
+2023-12-15T17:55:50.806Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 61%
+2023-12-15T17:55:50.901Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 62%
+2023-12-15T17:55:50.972Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 63%
+2023-12-15T17:55:51.062Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 64%
+2023-12-15T17:55:51.250Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 65%
+2023-12-15T17:55:51.333Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 66%
+2023-12-15T17:55:51.731Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 67%
+2023-12-15T17:55:51.732Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 68%
+2023-12-15T17:55:51.733Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 69%
+2023-12-15T17:55:51.758Z [Modules] Checking for host updates.
+2023-12-15T17:55:51.770Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 70%
+2023-12-15T17:55:51.839Z [Modules] Starting to install discord_rpc...
+2023-12-15T17:55:51.970Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 71%
+2023-12-15T17:55:52.090Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 72%
+2023-12-15T17:55:52.237Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 73%
+2023-12-15T17:55:52.363Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 74%
+2023-12-15T17:55:52.473Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 75%
+2023-12-15T17:55:52.598Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 76%
+2023-12-15T17:55:52.735Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 77%
+2023-12-15T17:55:52.833Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 78%
+2023-12-15T17:55:52.924Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 79%
+2023-12-15T17:55:53.003Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 80%
+2023-12-15T17:55:53.087Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 81%
+2023-12-15T17:55:53.164Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 82%
+2023-12-15T17:55:53.247Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 83%
+2023-12-15T17:55:53.335Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 84%
+2023-12-15T17:55:53.397Z [Modules] Host is up to date.
+2023-12-15T17:55:53.397Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-15T17:55:53.403Z [Modules] No module updates available.
+2023-12-15T17:55:53.421Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 85%
+2023-12-15T17:55:53.535Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 86%
+2023-12-15T17:55:53.646Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 87%
+2023-12-15T17:55:53.969Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 88%
+2023-12-15T17:55:53.970Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 89%
+2023-12-15T17:55:53.971Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 90%
+2023-12-15T17:55:54.043Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 91%
+2023-12-15T17:55:54.493Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 92%
+2023-12-15T17:55:54.495Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 93%
+2023-12-15T17:55:54.496Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 94%
+2023-12-15T17:55:54.782Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 95%
+2023-12-15T17:55:54.786Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 97%
+2023-12-15T17:55:54.818Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 98%
+2023-12-15T17:55:55.010Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 99%
+2023-12-15T17:55:55.012Z [Modules] Streaming discord_krisp@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip: 100%
+2023-12-15T17:55:55.014Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-12-15T17:55:55.014Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip
+2023-12-15T17:55:55.015Z [Modules] Installing discord_krisp@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_krisp-1.zip
+2023-12-15T17:55:55.353Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-12-15T17:55:55.780Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 1%
+2023-12-15T17:55:55.813Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 2%
+2023-12-15T17:55:55.819Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 3%
+2023-12-15T17:55:55.850Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 4%
+2023-12-15T17:55:55.854Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 5%
+2023-12-15T17:55:55.877Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 6%
+2023-12-15T17:55:55.883Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 7%
+2023-12-15T17:55:55.902Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 8%
+2023-12-15T17:55:55.917Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 9%
+2023-12-15T17:55:55.932Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 10%
+2023-12-15T17:55:55.934Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 11%
+2023-12-15T17:55:55.960Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 12%
+2023-12-15T17:55:55.974Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 13%
+2023-12-15T17:55:55.980Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 14%
+2023-12-15T17:55:55.995Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 15%
+2023-12-15T17:55:56.001Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 16%
+2023-12-15T17:55:56.011Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 17%
+2023-12-15T17:55:56.017Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 18%
+2023-12-15T17:55:56.034Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 19%
+2023-12-15T17:55:56.042Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 20%
+2023-12-15T17:55:56.049Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 21%
+2023-12-15T17:55:56.057Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 22%
+2023-12-15T17:55:56.083Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 23%
+2023-12-15T17:55:56.096Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 24%
+2023-12-15T17:55:56.119Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 25%
+2023-12-15T17:55:56.134Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 26%
+2023-12-15T17:55:56.138Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 27%
+2023-12-15T17:55:56.157Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 28%
+2023-12-15T17:55:56.166Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 29%
+2023-12-15T17:55:56.194Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 30%
+2023-12-15T17:55:56.200Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 31%
+2023-12-15T17:55:56.212Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 32%
+2023-12-15T17:55:56.237Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 33%
+2023-12-15T17:55:56.254Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 34%
+2023-12-15T17:55:56.288Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 35%
+2023-12-15T17:55:56.292Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 36%
+2023-12-15T17:55:56.354Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 37%
+2023-12-15T17:55:56.361Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 38%
+2023-12-15T17:55:56.368Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 39%
+2023-12-15T17:55:56.375Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 40%
+2023-12-15T17:55:56.403Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 41%
+2023-12-15T17:55:56.407Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 42%
+2023-12-15T17:55:56.413Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 43%
+2023-12-15T17:55:56.420Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 44%
+2023-12-15T17:55:56.449Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 45%
+2023-12-15T17:55:56.452Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 46%
+2023-12-15T17:55:56.480Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 47%
+2023-12-15T17:55:56.493Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 48%
+2023-12-15T17:55:56.500Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 49%
+2023-12-15T17:55:56.522Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 50%
+2023-12-15T17:55:56.526Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 51%
+2023-12-15T17:55:56.554Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 52%
+2023-12-15T17:55:56.570Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 53%
+2023-12-15T17:55:56.575Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 54%
+2023-12-15T17:55:56.585Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 55%
+2023-12-15T17:55:56.894Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 57%
+2023-12-15T17:55:56.902Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 76%
+2023-12-15T17:55:56.914Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 77%
+2023-12-15T17:55:56.920Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 78%
+2023-12-15T17:55:56.924Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 79%
+2023-12-15T17:55:56.932Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 80%
+2023-12-15T17:55:56.955Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 81%
+2023-12-15T17:55:56.965Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 82%
+2023-12-15T17:55:56.981Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 83%
+2023-12-15T17:55:57.234Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 92%
+2023-12-15T17:55:57.236Z [Modules] Streaming discord_game_utils@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip: 100%
+2023-12-15T17:55:57.238Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-12-15T17:55:57.238Z [Modules] Streaming discord_rpc@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_rpc-1.zip
+2023-12-15T17:55:57.238Z [Modules] Installing discord_game_utils@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_game_utils-1.zip
+2023-12-15T17:55:57.302Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-12-15T17:55:58.010Z [Modules] Streaming discord_rpc@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_rpc-1.zip: 38%
+2023-12-15T17:55:58.013Z [Modules] Streaming discord_rpc@1 to /home/tomri/.config/discord/0.0.38/modules/pending/discord_rpc-1.zip: 100%
+2023-12-15T17:55:58.015Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-12-15T17:55:58.015Z [Modules] Installing discord_rpc@1 from /home/tomri/.config/discord/0.0.38/modules/pending/discord_rpc-1.zip
+2023-12-15T17:55:58.040Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-12-16T15:29:01.647Z [Modules] Modules initializing
+2023-12-16T15:29:01.648Z [Modules] Distribution: remote
+2023-12-16T15:29:01.648Z [Modules] Host updates: enabled
+2023-12-16T15:29:01.648Z [Modules] Module updates: enabled
+2023-12-16T15:29:01.648Z [Modules] Module install path: /home/tomri/.config/discord/0.0.38/modules
+2023-12-16T15:29:01.648Z [Modules] Module installed file path: /home/tomri/.config/discord/0.0.38/modules/installed.json
+2023-12-16T15:29:01.649Z [Modules] Module download path: /home/tomri/.config/discord/0.0.38/modules/pending
+2023-12-16T15:29:01.825Z [Modules] No updates to install
+2023-12-16T15:29:01.825Z [Modules] Checking for host updates.
+2023-12-16T15:29:02.689Z [Modules] Host is up to date.
+2023-12-16T15:29:02.690Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-16T15:29:02.770Z [Modules] No module updates available.
+2023-12-16T15:29:06.516Z [Modules] Checking for host updates.
+2023-12-16T15:29:06.971Z [Modules] Host is up to date.
+2023-12-16T15:29:06.972Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-16T15:29:06.978Z [Modules] No module updates available.
+2023-12-16T16:29:06.519Z [Modules] Checking for host updates.
+2023-12-16T16:29:06.536Z [Modules] Host update failed: Error: getaddrinfo EAI_AGAIN discord.com
+2023-12-17T07:50:38.502Z [Modules] Modules initializing
+2023-12-17T07:50:38.502Z [Modules] Distribution: remote
+2023-12-17T07:50:38.502Z [Modules] Host updates: enabled
+2023-12-17T07:50:38.502Z [Modules] Module updates: enabled
+2023-12-17T07:50:38.502Z [Modules] Module install path: /home/tomri/.config/discord/0.0.38/modules
+2023-12-17T07:50:38.503Z [Modules] Module installed file path: /home/tomri/.config/discord/0.0.38/modules/installed.json
+2023-12-17T07:50:38.503Z [Modules] Module download path: /home/tomri/.config/discord/0.0.38/modules/pending
+2023-12-17T07:50:38.722Z [Modules] No updates to install
+2023-12-17T07:50:38.723Z [Modules] Checking for host updates.
+2023-12-17T07:50:39.327Z [Modules] Host is up to date.
+2023-12-17T07:50:39.327Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-17T07:50:39.389Z [Modules] No module updates available.
+2023-12-17T07:50:41.956Z [Modules] Checking for host updates.
+2023-12-17T07:50:42.372Z [Modules] Host is up to date.
+2023-12-17T07:50:42.372Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-17T07:50:42.381Z [Modules] No module updates available.
+2023-12-17T09:11:47.138Z [Modules] Modules initializing
+2023-12-17T09:11:47.139Z [Modules] Distribution: remote
+2023-12-17T09:11:47.139Z [Modules] Host updates: enabled
+2023-12-17T09:11:47.139Z [Modules] Module updates: enabled
+2023-12-17T09:11:47.139Z [Modules] Module install path: /home/tomri/.config/discord/0.0.38/modules
+2023-12-17T09:11:47.139Z [Modules] Module installed file path: /home/tomri/.config/discord/0.0.38/modules/installed.json
+2023-12-17T09:11:47.139Z [Modules] Module download path: /home/tomri/.config/discord/0.0.38/modules/pending
+2023-12-17T09:11:47.323Z [Modules] No updates to install
+2023-12-17T09:11:47.323Z [Modules] Checking for host updates.
+2023-12-17T09:11:47.931Z [Modules] Host is up to date.
+2023-12-17T09:11:47.932Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-17T09:11:48.035Z [Modules] No module updates available.
+2023-12-17T09:11:50.190Z [Modules] Checking for host updates.
+2023-12-17T09:11:50.693Z [Modules] Host is up to date.
+2023-12-17T09:11:50.693Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-12-17T09:11:50.696Z [Modules] No module updates available.

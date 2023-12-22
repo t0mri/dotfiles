@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# Increment, decrement, or mute the brightness and send a notification
+# of the current brightness level.
+
+send_notification() {
+	brightness=$(brillo)
+	dunstify -a "changebrightness" -u low -r 9994 -h int:value:"$brightness" -i "brightness" "Brightness" "Currently at ${brightness}%" -t 2000
+}
+
+case $1 in
+up)
+	brillo -q -A 5
+	send_notification "$1"
+	;;
+down)
+	brillo -q -U 5
+	send_notification "$1"
+	;;
+esac
